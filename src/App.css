@@ -1,0 +1,43 @@
+
+.chatbox{
+  border-radius: 10px;
+  margin: 5px 10px;
+  padding: 10px;
+  background-color: #371eb6f5;
+  color: white;
+}
+
+.me .chatbox{
+  background-color: white;
+  color: black
+}
+
+.container{
+  display: flex;
+}
+
+.container.me{
+  flex-direction: row-reverse;
+}
+
+.btm{
+  position: fixed;
+  width: 100%;
+  bottom: 2px;
+  display: flex;
+  flex-direction:row;
+}
+
+.btm input{
+  padding: 10px;
+  flex-grow: 1;
+}
+
+.btm button{
+  padding: 0px 0;
+}
+
+.chat-container{
+  height: 70vh;
+  overflow-y: scroll;
+}
